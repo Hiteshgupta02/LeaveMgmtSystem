@@ -2,7 +2,7 @@
  * UserEntity.java
  *
  *	Date		Author					Remark
- *	19-Feb-2020	Gurpreet Singh Saini	Initial Version
+ *	19-Feb-2020	Hitesh Gupta	Initial Version
  *
  *
  *  © 2019
@@ -14,7 +14,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
 /**
- * @author Gurpreet.Saini
+ * @author Hitesh Gupta
  *
  */
 public class User {

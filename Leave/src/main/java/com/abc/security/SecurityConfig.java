@@ -2,7 +2,7 @@
  * SecurityConfig.java
  *
  *	Date		Author					Remark
- *	20-Feb-2020	Gurpreet Singh Saini	Initial Version
+ *	20-Feb-2020	Hitesh Gupta	Initial Version
  *
  *
  *  © 2019
@@ -25,7 +25,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**
- * @author Gurpreet.Saini
+ * @author Hitesh Gupta
  *
  */
 @Configuration

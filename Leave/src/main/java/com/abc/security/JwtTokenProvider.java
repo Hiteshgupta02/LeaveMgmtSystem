@@ -2,7 +2,7 @@
  * JwtTokenProvider.java
  *
  *	Date		Author					Remark
- *	20-Feb-2020	Gurpreet Singh Saini	Initial Version
+ *	20-Feb-2020	Hitesh Gupta	Initial Version
  *
  *
  *  © 2019
@@ -26,7 +26,7 @@ import io.jsonwebtoken.SignatureException;
 import io.jsonwebtoken.UnsupportedJwtException;
 
 /**
- * @author Gurpreet.Saini
+ * @author Hitesh Gupta
  *
  */
 @Component

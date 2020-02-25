@@ -2,7 +2,7 @@
  * JwtAuthenticationFilter.java
  *
  *	Date		Author					Remark
- *	20-Feb-2020	Gurpreet Singh Saini	Initial Version
+ *	20-Feb-2020	Hitesh Gupta	Initial Version
  *
  *
  *  © 2019
@@ -27,7 +27,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 /**
- * @author Gurpreet.Saini
+ * @author Hitesh Gupta
  *
  */
 public class JwtAuthenticationFilter extends OncePerRequestFilter {

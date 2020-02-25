@@ -2,7 +2,7 @@
  * LeaveRepo.java
  *
  *	Date		Author					Remark
- *	19-Feb-2020	Gurpreet Singh Saini	Initial Version
+ *	19-Feb-2020	Hitesh Gupta	Initial Version
  *
  *
  *  © 2019
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
 import com.abc.entity.LeaveEntity;
 
 /**
- * @author Gurpreet.Saini
+ * @author Hitesh Gupta
  *
  */
 @Repository

@@ -2,7 +2,7 @@
  * Leave.java
  *
  *	Date		Author					Remark
- *	19-Feb-2020	Gurpreet Singh Saini	Initial Version
+ *	19-Feb-2020	Hitesh Gupta	Initial Version
  *
  *
  *  © 2019
@@ -15,7 +15,7 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 /**
- * @author Gurpreet.Saini
+ * @author Hitesh Gupta
  *
  */
 public class Leave {
