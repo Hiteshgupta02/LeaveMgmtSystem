@@ -1,12 +1,3 @@
-/****************************************************
- * CustomUserDetailsService.java
- *
- *	Date		Author					Remark
- *	20-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.security;
 
 import javax.transaction.Transactional;
@@ -20,10 +11,7 @@ import org.springframework.stereotype.Service;
 import com.abc.entity.UserEntity;
 import com.abc.repository.UserRepo;
 
-/**
- * @author Hitesh Gupta
- *
- */
+
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 

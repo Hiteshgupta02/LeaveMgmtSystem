@@ -1,12 +1,4 @@
-/****************************************************
- * UserServiceImpl.java
- *
- *	Date		Author					Remark
- *	20-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
+
 package com.abc.service;
 
 import java.util.Optional;
@@ -28,10 +20,7 @@ import com.abc.model.User;
 import com.abc.repository.UserRepo;
 import com.abc.security.JwtTokenProvider;
 
-/**
- * @author Hitesh Gupta
- *
- */
+
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -47,11 +36,7 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	PasswordEncoder passwordEncoder;
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.UserService#createUser(com.abc.model.User)
-	 */
+	
 	@Override
 	public User createUser(User user) throws AppException {
 		Optional<UserEntity> userEntity = userRepo.findByUsername(user.getUsername());
@@ -65,11 +50,7 @@ public class UserServiceImpl implements UserService {
 		return user;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.UserService#login(com.abc.model.LoginRequest)
-	 */
+	
 	@Override
 	public JwtAuthenticationResponse login(LoginRequest login) throws AppException {
 		Authentication authentication = authenticationManager

@@ -1,12 +1,3 @@
-/****************************************************
- * UserController.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Gurpreet Singh Saini	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,10 +14,7 @@ import com.abc.model.LoginRequest;
 import com.abc.model.User;
 import com.abc.service.UserService;
 
-/**
- * @author Gurpreet.Saini
- *
- */
+
 @RestController
 @RequestMapping("/api/v1.0/user")
 public class UserController {

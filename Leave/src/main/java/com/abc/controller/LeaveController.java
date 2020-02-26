@@ -18,10 +18,7 @@ import com.abc.exception.AppException;
 import com.abc.model.Leave;
 import com.abc.service.LeaveService;
 
-/**
- * @author Hitesh Gupta
- *
- */
+
 @RestController
 @RequestMapping(value = "/api/v1.0/leave")
 public class LeaveController {

@@ -1,12 +1,3 @@
-/****************************************************
- * LeaveServiceImpl.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.service;
 
 import java.util.ArrayList;
@@ -22,21 +13,13 @@ import com.abc.exception.AppException;
 import com.abc.model.Leave;
 import com.abc.repository.LeaveRepo;
 
-/**
- * @author Hitesh Gupta
- *
- */
 @Service
 public class LeaveServiceImpl implements LeaveService {
 
 	@Autowired
 	LeaveRepo leaveRepo;
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.LeaveService#findAllLeaves()
-	 */
+	
 	@Override
 	public List<Leave> findAllLeaves() throws AppException {
 		List<Leave> leaves = new ArrayList<>();
@@ -49,11 +32,6 @@ public class LeaveServiceImpl implements LeaveService {
 		return leaves;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.LeaveService#findLeaveById(java.lang.Long)
-	 */
 	@Override
 	public Leave findLeaveById(Long id) throws AppException {
 		Optional<LeaveEntity> leaveEntity = leaveRepo.findById(id);
@@ -66,11 +44,7 @@ public class LeaveServiceImpl implements LeaveService {
 		}
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.LeaveService#addLeave(com.abc.model.Leave)
-	 */
+	
 	@Override
 	public Leave addLeave(Leave leave) throws AppException {
 		LeaveEntity leaveEntity = new LeaveEntity();
@@ -80,12 +54,7 @@ public class LeaveServiceImpl implements LeaveService {
 		return leave;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.LeaveService#updateLeave(java.lang.Long,
-	 * com.abc.model.Leave)
-	 */
+	
 	@Override
 	public Leave updateLeave(Long Id, Leave leave) throws AppException {
 		LeaveEntity leaveEntity = leaveRepo.getOne(Id);
@@ -99,11 +68,7 @@ public class LeaveServiceImpl implements LeaveService {
 		return leave;
 	}
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.abc.service.LeaveService#deleteLeave(java.lang.Long)
-	 */
+	
 	@Override
 	public Boolean deleteLeave(Long Id) throws AppException {
 		LeaveEntity leaveEntity = leaveRepo.getOne(Id);

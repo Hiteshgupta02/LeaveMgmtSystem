@@ -1,12 +1,3 @@
-/****************************************************
- * SecurityConfig.java
- *
- *	Date		Author					Remark
- *	20-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,10 +15,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-/**
- * @author Hitesh Gupta
- *
- */
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled = true, jsr250Enabled = true, prePostEnabled = true)

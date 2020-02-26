@@ -1,12 +1,4 @@
-/****************************************************
- * LeaveEntity.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta        	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
+
 package com.abc.entity;
 
 import java.util.Date;
@@ -17,10 +9,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-/**
- * @author Hitesh Gupta
- *
- */
+
 
 @Entity
 @Table(name = "leave")

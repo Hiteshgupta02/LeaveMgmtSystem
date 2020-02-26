@@ -1,12 +1,3 @@
-/****************************************************
- * LocalizationService.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.util;
 
 import java.util.Locale;
@@ -16,10 +7,6 @@ import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.stereotype.Component;
 
-/**
- * @author Hitesh Gupta
- *
- */
 @Component
 public class LocalizationService {
 	

@@ -1,12 +1,3 @@
-/****************************************************
- * UserPrincipal.java
- *
- *	Date		Author					Remark
- *	20-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.security;
 
 import java.util.Collection;
@@ -20,14 +11,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import com.abc.entity.UserEntity;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-/**
- * @author Hitesh Gupta
- *
- */
 public class UserPrincipal implements UserDetails {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = -24483004006920391L;
 
 	private Long id;

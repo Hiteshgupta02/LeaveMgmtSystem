@@ -1,22 +1,10 @@
-/****************************************************
- * RoleEntity.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta			Initial Version
- *
- *
- *  © 2019
- ***************************************************/
+
 package com.abc.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-/**
- * @author Hitesh Gupta
- *
- */
 
 @Entity
 @Table(name = "role")

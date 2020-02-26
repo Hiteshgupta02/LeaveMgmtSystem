@@ -1,18 +1,5 @@
-/****************************************************
- * AppException.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
-package com.abc.exception;
 
-/**
- * @author Hitesh Gupta
- *
- */
+package com.abc.exception;
 public class AppException extends Exception {
 
 	/**

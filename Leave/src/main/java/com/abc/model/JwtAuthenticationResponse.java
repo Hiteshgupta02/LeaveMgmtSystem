@@ -1,18 +1,5 @@
-/****************************************************
- * JwtAuthenticationResponse.java
- *
- *	Date		Author					Remark
- *	20-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.model;
 
-/**
- * @author Hitesh Gupta
- *
- */
 public class JwtAuthenticationResponse {
 	
 	private String accessToken;

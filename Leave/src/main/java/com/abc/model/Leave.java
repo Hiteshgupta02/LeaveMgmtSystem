@@ -1,12 +1,3 @@
-/****************************************************
- * Leave.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.model;
 
 import java.util.Date;
@@ -14,10 +5,6 @@ import java.util.Date;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
-/**
- * @author Hitesh Gupta
- *
- */
 public class Leave {
 	
 	private Long Id;

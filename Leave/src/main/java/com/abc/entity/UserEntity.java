@@ -1,12 +1,4 @@
-/****************************************************
- * UserEntity.java
- *
- *	Date		Author					Remark
- *	19-Feb-2020	Hitesh Gupta 			Initial Version
- *
- *
- *  © 2019
- ***************************************************/
+
 package com.abc.entity;
 
 import java.util.Set;
@@ -20,10 +12,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-/**
- * @author Hitesh Gupta
- *
- */
+
 @Entity
 @Table(name = "user")
 public class UserEntity extends AbstractEntity {

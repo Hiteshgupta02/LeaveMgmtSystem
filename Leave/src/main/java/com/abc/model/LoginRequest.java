@@ -1,20 +1,8 @@
-/****************************************************
- * LoginRequest.java
- *
- *	Date		Author					Remark
- *	20-Feb-2020	Hitesh Gupta	Initial Version
- *
- *
- *  © 2019
- ***************************************************/
 package com.abc.model;
 
 import javax.validation.constraints.NotBlank;
 
-/**
- * @author Hitesh Gupta
- *
- */
+
 public class LoginRequest {
 
 	@NotBlank
