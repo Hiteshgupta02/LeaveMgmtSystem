@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "e98c02c3-fb84-4498-903d-f6ff771463a9",
-		"name": "Test",
+		"name": "Earned",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -13,7 +13,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgyMTgwMTkxLCJleHAiOjE1ODI3ODQ5OTF9.ZR_CqqwivsUnIfVksLVmmZAM3oRR9CWQkMXefIk9nLtDetkx8sfZcHrd0yt1-X0xCV0p7l9jjuUDXNpeOK9b7g",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgzMzkyMjI5LCJleHAiOjE1ODM5OTcwMjl9.oQfPbImBeN8hhX2N5gKOzBJoBwltcF-VfkW--fNKLm7-X02w-eGQgtEesuIdmEoxq7VylqkU8ZUwdNjdxi0SlA",
 							"type": "string"
 						}
 					]
@@ -43,7 +43,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgyMTgwMTkxLCJleHAiOjE1ODI3ODQ5OTF9.ZR_CqqwivsUnIfVksLVmmZAM3oRR9CWQkMXefIk9nLtDetkx8sfZcHrd0yt1-X0xCV0p7l9jjuUDXNpeOK9b7g",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgzMzkyMjI5LCJleHAiOjE1ODM5OTcwMjl9.oQfPbImBeN8hhX2N5gKOzBJoBwltcF-VfkW--fNKLm7-X02w-eGQgtEesuIdmEoxq7VylqkU8ZUwdNjdxi0SlA",
 							"type": "string"
 						}
 					]
@@ -59,7 +59,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"type\":2,\n\t\"active\":true,\n\t\"name\":\"Earned leave1\",\n\t\"startDate\":\"2020-02-18T09:43:31.017+0000\",\n\t\"endDate\":\"2020-02-19T09:43:31.017+0000\"\n}",
+					"raw": "{\n\t\"type\":7,\n\t\"active\":true,\n\t\"name\":\"Earned Leave1\",\n\t\"startDate\":\"2020-03-05T09:43:31.017+0000\",\n\t\"endDate\":\"2020-03-06T09:43:31.017+0000\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -85,16 +85,11 @@
 			"name": "Update Leave",
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "password",
-							"value": "test",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "test",
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgzMzkyMjI5LCJleHAiOjE1ODM5OTcwMjl9.oQfPbImBeN8hhX2N5gKOzBJoBwltcF-VfkW--fNKLm7-X02w-eGQgtEesuIdmEoxq7VylqkU8ZUwdNjdxi0SlA",
 							"type": "string"
 						}
 					]
@@ -110,7 +105,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"type\":1,\n\t\"active\":true,\n\t\"name\":\"Earned Leave1\",\n\t\"startDate\":\"2020-02-11T00:00:00.000+0000\",\n\t\"endDate\":\"2020-02-11T00:00:00.000+0000\"\n}",
+					"raw": "{\n\t\"type\":1,\n\t\"active\":true,\n\t\"name\":\"Earned Leave1\",\n\t\"startDate\":\"2020-03-05T00:00:00.000+0000\",\n\t\"endDate\":\"2020-03-06T00:00:00.000+0000\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -127,7 +122,7 @@
 						"api",
 						"v1.0",
 						"leave",
-						"1"
+						"7"
 					]
 				}
 			},
@@ -137,16 +132,11 @@
 			"name": "Delete Leave",
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
+					"type": "bearer",
+					"bearer": [
 						{
-							"key": "password",
-							"value": "test",
-							"type": "string"
-						},
-						{
-							"key": "username",
-							"value": "test",
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgzMzkyMjI5LCJleHAiOjE1ODM5OTcwMjl9.oQfPbImBeN8hhX2N5gKOzBJoBwltcF-VfkW--fNKLm7-X02w-eGQgtEesuIdmEoxq7VylqkU8ZUwdNjdxi0SlA",
 							"type": "string"
 						}
 					]
@@ -179,7 +169,7 @@
 						"api",
 						"v1.0",
 						"leave",
-						"1"
+						"7"
 					]
 				}
 			},
@@ -196,7 +186,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgyMTgwMTkxLCJleHAiOjE1ODI3ODQ5OTF9.ZR_CqqwivsUnIfVksLVmmZAM3oRR9CWQkMXefIk9nLtDetkx8sfZcHrd0yt1-X0xCV0p7l9jjuUDXNpeOK9b7g",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTgzMzkyMjI5LCJleHAiOjE1ODM5OTcwMjl9.oQfPbImBeN8hhX2N5gKOzBJoBwltcF-VfkW--fNKLm7-X02w-eGQgtEesuIdmEoxq7VylqkU8ZUwdNjdxi0SlA",
 							"type": "string"
 						}
 					]
@@ -229,7 +219,7 @@
 						"api",
 						"v1.0",
 						"leave",
-						"2"
+						"7"
 					]
 				}
 			},
